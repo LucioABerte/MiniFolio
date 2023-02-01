@@ -66,6 +66,7 @@ img {
   justify-content: flex-end;
   position: relative;
   top: 2rem;
+  height: 1rem;
   font-size: 1.25rem;
   background-color: transparent;
   border: none;
