@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* -- BASE -- */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  transition: .3s;
+}
+
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* -- THEME -- */
+.dark-theme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #0a0913f5;
+  --title-color: hsl(var(--hue), 12%, 95%);
+  --text-color: hsl(var(--hue), 12%, 75%);
+  --text-color-light: hsl(var(--hue), 8%, 75%);
+  --text-color-lighten: hsl(var(--hue), 24%, 12%);
+  --body-color: hsl(var(--hue), 40%, 8%);
+  --container-color: hsl(var(--hue), 24%, 12%);;
+  --background: #0a091386;
+  transition: 1s;
+}
+
+
+.light-theme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--body-color);
+  color: #333333;
+  transition: 1s;
+}
+
+.icon-light{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 2rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: none;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: 3s;
+}
+
+.icon-light:hover {
+  color: var(--first-color);
+}
+
+.icon-dark{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 2rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: none;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: 3s;
+}
+
+.icon-dark:hover {
+  color: var(--first-color);
+} 
+
+
+/*--------- 
+    Cambios de Color en partes 
+    del website, en tema claro
+-----------*/
+
+.dark-theme .button__gray{
+  background-color: var(--container-color);
+  box-shadow: 0 5px 20px hsla(var(--hue), var(--sat), var(--lig), .12);
+}
+
+.dark-theme .button__gray:hover{
+  background-color: hsl(var(--hue), 24%, 16%);
+}  
+
+
+/* -- CLASES REUSABLES CSS -- */
+.container {
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+
+
+/* --- SCROLL BAR  --- */
+
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: var(--text-color-lighten);
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: .5rem;
+  background-color: var(--text-color-light);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: var(--text-color);
+}
+
+/* -- PUNTOS DE RESOLUCION -- */
+/* -- Resolucion Chica -- */
+
+@media screen and (max-width: 320px){
+  .container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .icon-light, 
+  .icon-dark {
+    right: 2rem;
+  }
+   
+  .profile__info{
+    column-gap: 1.5rem;
+  }
+
+  .profile__buttons{
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .Tabs {
+    padding-left: 0.2rem;
+  }
+  .skills__box{
+    column-gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px){
+
+  .icon-light, 
+  .icon-dark {
+    right: 2rem;
+  }
+
+  .profile__buttons {
+    font-size: 0.75rem;
+  }
+}
+
+
+/* -- Resolucion Media -- */
+
+@media screen and (min-width: 576px){
+  .icon-light, 
+  .icon-dark {
+    right: -5rem;
+  }
+  .projects__content{
+    grid-template-columns: 332px;
+    justify-content: center;
+  }
+
+  .filters__content{
+    width: 332px;
+    margin: 3rem auto;
+  }
+}
+
+@media screen and (min-width: 776px){
+
+  .icon-light, 
+  .icon-dark {
+    right: -10rem;
+  }
+  .projects__content,
+  .skills__content{
+    grid-template-columns: repeat(2, 332px);
+  }
+
+  .skills__content{
+    justify-content: center;
+    column-gap: 3rem;
+
+  }
+}
+
+
+/* -- Resolucion Grande -- */
+@media screen and (min-width: 992px){
+  .icon-light, 
+  .icon-dark {
+    right: -17rem;
+  }
+  .profile{
+    padding-top: 4rem;
+  }
+  .profile__border{
+    width: 135px;
+    height: 135px;
+    margin-bottom: 1rem;
+  }
+
+  .profile__perfil{
+    width: 120px;
+    height: 120px;
+  }
+  .profile__perfil img {
+    width: 90px;
+  }
+
+  .profile__profession{
+    margin-bottom: 1.5rem;
+  }
+  .profile__info{
+    column-gap: 3rem;
+  }
+
+  .profile__info-description{
+    font-size: var(--small-font-size);
+  }
+
+  .profile__buttons{
+    column-gap: 2rem;
+  }
+
+  .projects__content{
+    gap: 2rem 3rem;
+  }
+
+  .projects__modal{
+    padding: 1.5rem;
+  }
+
+  .skills__title{
+    font-size: var(--normal-font-size);
+    margin-bottom: 2.5rem;
+  }
+
+  .footer__copy{
+    margin: 4.5rem 0 2.5rem;
+  }
+}

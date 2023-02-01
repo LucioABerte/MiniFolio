@@ -1,0 +1,55 @@
+/* --- FOOTER  --- */
+
+.footer__copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    margin: 0rem 0 0rem;
+    text-align: center;
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+    text-shadow: 3px 5px 6px rgba(0,0,0,0.15);
+  }
+
+.to-top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  
+  left: 20%;
+  color: #fff;
+  font-size: 12px;
+  background-color: var(--text-color-lighten);
+  border: 0.1px solid rgba(146, 146, 146, 0.055);
+  border-radius: .3rem;
+  transition: .3s;
+  box-shadow: 0 8px 20px hsla(var(--hue), var(--sat), var(--lig), .18);
+  cursor: pointer;
+}
+
+.to-top:hover{
+  background-color: var(--text-color-lighten);
+  border: 0.1px solid rgba(146, 146, 146, 0.247);
+}
+
+.to-top:active{
+  box-shadow: 2px 2.5px 2px 1px rgba(0,0,0,0.35) inset;
+}
+
+.dark-theme.to-top{
+  background-color: rgba(38, 39, 66, 0.315);
+  color: rgb(255, 255, 255);
+}
+
+.dark-theme.to-top:hover{
+  background-color: rgba(15, 15, 22, 0.329);
+}
+
+.dark-theme.to-top:active{
+  background-color: rgba(45, 45, 58, 0.678);
+}
