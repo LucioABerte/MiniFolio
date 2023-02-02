@@ -216,9 +216,94 @@ span{
 
 .i {
   font-size: 1.2rem;
-  color: var(--first-color);
 }
 
 .two {
   margin-left: 1rem;
 }
+
+
+/* --- Skills Buttons --- */ 
+
+.html {
+  color: orange;
+}
+
+.react {
+  color: rgb(156, 176, 230);
+}
+
+.css {
+  color: rgb(0, 119, 255);
+}
+
+.npm {
+  color: rgb(199, 10, 10);
+}
+
+.js {
+  color: rgb(227, 241, 19);
+}
+
+.bs {
+  color: blueviolet;
+}
+
+.vite {
+  color: rgb(190, 80, 190);
+}
+
+.mui {
+  color: blue;
+}
+
+.tw {
+  color: turquoise;
+}
+
+.figma {
+  color: coral;
+}
+
+.node {
+  color: rgb(2, 211, 2);
+}
+
+.strapi {
+  color: rgb(173, 49, 173);
+}
+
+.sql {
+  color: rgb(202, 153, 30);
+}
+
+.ruby {
+  color: rgb(197, 2, 2);
+}
+
+.git {
+  color: red;
+}
+
+.py {
+  color: green;
+}
+
+.slack {
+  color: rgb(120, 13, 134);
+}
+
+.net {
+  color: teal;
+}
+
+.hub {
+  color: black;
+}
+
+.html {
+  color: red;
+}
+
+
+

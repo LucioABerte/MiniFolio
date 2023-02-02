@@ -18,7 +18,7 @@ const SecondTab = () => {
                     <div className="skills__box">
                         <div className="skills__group">
                             <div className="skills__data">
-                                <AiOutlineHtml5 className="i"/>
+                                <AiOutlineHtml5 className="i html"/>
 
                                 <div>
                                     <h3 className="skills__name">HTML5</h3>
@@ -28,7 +28,7 @@ const SecondTab = () => {
                             
 
                             <div className="skills__data">
-                                <FaCss3Alt className="i"/>
+                                <FaCss3Alt className="i css"/>
 
                                 <div>
                                     <h3 className="skills__name">CSS3</h3>
@@ -37,7 +37,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <IoLogoJavascript className="i"/>
+                                <IoLogoJavascript className="i js"/>
 
                                 <div>
                                     <h3 className="skills__name">JavaScript</h3>
@@ -46,7 +46,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <FaBootstrap className="i" />
+                                <FaBootstrap className="i bs" />
 
                                 <div>
                                     <h3 className="skills__name">Bootstrap</h3>
@@ -55,7 +55,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <SiTailwindcss className="i" /> 
+                                <SiTailwindcss className="i tw" /> 
 
                                 <div>
                                     <h3 className="skills__name">Tailwind</h3>
@@ -65,7 +65,7 @@ const SecondTab = () => {
                         </div>
                         <div className="skills__group">
                             <div className="skills__data">
-                                <FaReact className="i" />
+                                <FaReact className="i react"  />
     
                                 <div>
                                     <h3 className="skills__name">React</h3>
@@ -74,7 +74,7 @@ const SecondTab = () => {
                             </div>
     
                             <div className="skills__data">
-                                <FaNpm className="i" />
+                                <FaNpm className="i npm" />
     
                                 <div>
                                     <h3 className="skills__name">NPM</h3>
@@ -83,7 +83,7 @@ const SecondTab = () => {
                             </div>
     
                             <div className="skills__data">
-                                <SiVite className="i" />
+                                <SiVite className="i vite" />
     
                                 <div>
                                     <h3 className="skills__name">Vite</h3>
@@ -92,7 +92,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <SiMaterialui className="i" />
+                                <SiMaterialui className="i mui" />
     
                                 <div>
                                     <h3 className="skills__name">Material UI</h3>
@@ -101,7 +101,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <FaFigma className="i" />
+                                <FaFigma className="i figma" />
     
                                 <div>
                                     <h3 className="skills__name">Figma</h3>
@@ -121,7 +121,7 @@ const SecondTab = () => {
                     <div className="skills__box">
                         <div className="skills__group">
                             <div className="skills__data">
-                                <FaNodeJs className="i" />
+                                <FaNodeJs className="i node" />
 
                                 <div>
                                     <h3 className="skills__name">Node Js</h3>
@@ -130,7 +130,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <SiStrapi className="i" />
+                                <SiStrapi className="i strapi" />
 
                                 <div>
                                     <h3 className="skills__name">Strapi</h3>
@@ -139,7 +139,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <FaDatabase className="i" />
+                                <FaDatabase className="i sql" />
 
                                 <div>
                                     <h3 className="skills__name">SQL</h3>
@@ -148,7 +148,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <DiRuby className="i" />
+                                <DiRuby className="i ruby" />
 
                                 <div>
                                     <h3 className="skills__name">Ruby</h3>
@@ -157,7 +157,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <FaGitAlt className="i" />
+                                <FaGitAlt className="i git" />
 
                                 <div>
                                     <h3 className="skills__name">Git</h3>
@@ -167,7 +167,7 @@ const SecondTab = () => {
                         </div>
                         <div className="skills__group">
                             <div className="skills__data">
-                                <FaPython className="i" />
+                                <FaPython className="i py" />
     
                                 <div>
                                     <h3 className="skills__name">Python</h3>
@@ -176,7 +176,7 @@ const SecondTab = () => {
                             </div>
     
                             <div className="skills__data">
-                                <FaSlack className="i" />
+                                <FaSlack className="i slack" />
     
                                 <div>
                                     <h3 className="skills__name">Slack</h3>
@@ -185,7 +185,7 @@ const SecondTab = () => {
                             </div>
     
                             <div className="skills__data">
-                                <SiVercel className="i" />
+                                <SiVercel className="i vercel" />
     
                                 <div>
                                     <h3 className="skills__name">Vercel</h3>
@@ -194,7 +194,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <SiNetlify className="i" />
+                                <SiNetlify className="i net" />
 
                                 <div>
                                     <h3 className="skills__name">Netlify</h3>
@@ -203,7 +203,7 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <AiOutlineGithub className="i" />
+                                <AiOutlineGithub className="i hub" />
 
                                 <div>
                                     <h3 className="skills__name">GitHub</h3>
