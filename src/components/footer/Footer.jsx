@@ -1,24 +1,23 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './footer.css'
 import { AiOutlineArrowUp } from "react-icons/ai";
-import { ThemeContextConsumer } from '../../context/ThemeContext';
+import { ThemeContext } from '../../context/ThemeContext';
 
 const Footer = (props) => {
+
+  const {theme} = useContext(ThemeContext)
+
   return (
-    <ThemeContextConsumer>
-      {context => ( 
-        <div className={`${context.theme}-theme`}>
-            <footer className="footer-container">
-                <span className="footer__copy">
-                    &#169; Developed By Lucio Berté
-                <button className={`${context.theme}-theme to-top`} onClick={props.top}>
-                  <AiOutlineArrowUp/>
-                </button>
-                </span>
-            </footer>
-        </div>    
-      )}
-    </ThemeContextConsumer>    
+      <div className={`${theme}-theme`}>
+          <footer className="footer-container">
+              <span className="footer__copy">
+                  &#169; Developed By Lucio Berté
+              <button className={`${theme}-theme to-top`} onClick={props.top}>
+                <AiOutlineArrowUp/>
+              </button>
+              </span>
+          </footer>
+      </div>    
   )
 }
 

@@ -15,7 +15,7 @@ const FirstTab = () => {
                                 <i className="ri-link"></i>
                             </a>
                             <a href="https://github.com/LucioABerte/Wedding" target="_blank" className="projects__button button button__small two">
-                                <i class="ri-code-line"></i>
+                                <i className="ri-code-line"></i>
                             </a>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ const FirstTab = () => {
                                 <i className="ri-link"></i>
                             </a>
                             <a href="https://github.com/LucioABerte/Portfolio" target="_blank" className="projects__button button button__small two">
-                                <i class="ri-code-line"></i>
+                                <i className="ri-code-line"></i>
                             </a>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const FirstTab = () => {
                                 <i className="ri-link"></i>
                             </a>
                             <a href="https://github.com/LucioABerte/NotesApp" target="_blank" className="projects__button button button__small two">
-                                <i class="ri-code-line"></i>
+                                <i className="ri-code-line"></i>
                             </a>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const FirstTab = () => {
                                 <i className="ri-link"></i>
                             </a>
                             <a href="https://github.com/LucioABerte/MemeGenerator" target="_blank" className="projects__button button button__small two">
-                                <i class="ri-code-line"></i>
+                                <i className="ri-code-line"></i>
                             </a>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ const FirstTab = () => {
                                 <i className="ri-link"></i>
                             </a>
                             <a href="https://github.com/LucioABerte/TenziesGame" target="_blank" className="projects__button button button__small two">
-                                <i class="ri-code-line"></i>
+                                <i className="ri-code-line"></i>
                             </a>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ const FirstTab = () => {
                                 <i className="ri-link"></i>
                             </a>
                             <a href="https://github.com/LucioABerte/TravelApp" target="_blank" className="projects__button button button__small two">
-                                <i class="ri-code-line"></i>
+                                <i className="ri-code-line"></i>
                             </a>
                         </div>
                     </div>
