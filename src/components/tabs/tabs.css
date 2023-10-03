@@ -305,5 +305,22 @@ span{
   color: red;
 }
 
+.jwt {
+  height: 20px;
+}
+.fire {
+  color: rgb(255, 196, 0);
+}
 
+.mongo {
+  color: rgb(22, 197, 22);
+}
+
+.jest {
+  color: purple;
+}
+
+.redux{
+  color: rgb(161, 21, 161);
+}
 

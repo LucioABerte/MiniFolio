@@ -2,8 +2,8 @@ import React from "react";
 import "./tabs.css";
 
 import { AiOutlineHtml5, AiOutlineGithub } from "react-icons/ai";
-import { FaCss3Alt , FaNodeJs, FaReact, FaBootstrap, FaSlack, FaNpm,FaFigma, FaGitAlt,FaPython,FaDatabase } from "react-icons/fa";
-import { SiTailwindcss, SiVite, SiMaterialui, SiStrapi, SiVercel, SiNetlify } from "react-icons/si";
+import { FaCss3Alt , FaNodeJs, FaReact, FaBootstrap, FaSlack, FaNpm, FaFigma, FaGitAlt, FaPython, FaDatabase } from "react-icons/fa";
+import { SiTailwindcss, SiVite, SiMaterialui, SiStrapi, SiVercel, SiNetlify, SiRedux, SiReacttable, SiFramer, SiFirebase, SiJest, SiMongodb, SiExpress } from "react-icons/si"; 
 import { IoLogoJavascript } from "react-icons/io5";
 import { DiRuby } from "react-icons/di";
 
@@ -37,19 +37,19 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <IoLogoJavascript className="i js"/>
-
+                                <SiRedux className="i redux" />
+    
                                 <div>
-                                    <h3 className="skills__name">JavaScript</h3>
+                                    <h3 className="skills__name">Redux Toolkit</h3>
                                     <span className="skills_level">Intermediate</span>
                                 </div>
                             </div>
 
                             <div className="skills__data">
-                                <FaBootstrap className="i bs" />
+                                <SiFramer className="i framer" />
 
                                 <div>
-                                    <h3 className="skills__name">Bootstrap</h3>
+                                    <h3 className="skills__name">Framer Motion</h3>
                                     <span className="skills_level">Intermediate</span>
                                 </div>
                             </div>
@@ -72,21 +72,21 @@ const SecondTab = () => {
                                     <span className="skills_level">Intermediate</span>
                                 </div>
                             </div>
-    
+
                             <div className="skills__data">
-                                <FaNpm className="i npm" />
-    
+                                <IoLogoJavascript className="i js"/>
+
                                 <div>
-                                    <h3 className="skills__name">NPM</h3>
+                                    <h3 className="skills__name">JavaScript</h3>
                                     <span className="skills_level">Intermediate</span>
                                 </div>
                             </div>
     
                             <div className="skills__data">
-                                <SiVite className="i vite" />
+                                <SiReacttable className="i query" />
     
                                 <div>
-                                    <h3 className="skills__name">Vite</h3>
+                                    <h3 className="skills__name">React Query</h3>
                                     <span className="skills_level">Intermediate</span>
                                 </div>
                             </div>
@@ -130,10 +130,10 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <SiStrapi className="i strapi" />
+                                <SiExpress className="i express" />
 
                                 <div>
-                                    <h3 className="skills__name">Strapi</h3>
+                                    <h3 className="skills__name">Express.js</h3>
                                     <span className="skills_level">Beginner</span>
                                 </div>
                             </div>
@@ -148,19 +148,19 @@ const SecondTab = () => {
                             </div>
 
                             <div className="skills__data">
-                                <DiRuby className="i ruby" />
+                                <SiFirebase className="i fire" />
 
                                 <div>
-                                    <h3 className="skills__name">Ruby</h3>
-                                    <span className="skills_level">Beginner</span>
+                                    <h3 className="skills__name">Firebase</h3>
+                                    <span className="skills_level">Intermediate</span>
                                 </div>
                             </div>
 
                             <div className="skills__data">
-                                <FaGitAlt className="i git" />
+                                <img src="jwt.png" alt="jason web token" className="i jwt"/>
 
                                 <div>
-                                    <h3 className="skills__name">Git</h3>
+                                    <h3 className="skills__name">JWT</h3>
                                     <span className="skills_level">Intermediate</span>
                                 </div>
                             </div>
@@ -185,19 +185,19 @@ const SecondTab = () => {
                             </div>
     
                             <div className="skills__data">
-                                <SiVercel className="i vercel" />
+                                <SiJest className="i jest" />
     
                                 <div>
-                                    <h3 className="skills__name">Vercel</h3>
+                                    <h3 className="skills__name">Jest</h3>
                                     <span className="skills_level">Intermediate</span>
                                 </div>
                             </div>
 
                             <div className="skills__data">
-                                <SiNetlify className="i net" />
+                                <SiMongodb className="i mongo" />
 
                                 <div>
-                                    <h3 className="skills__name">Netlify</h3>
+                                    <h3 className="skills__name">MongoDB</h3>
                                     <span className="skills_level">Intermediate</span>
                                 </div>
                             </div>
