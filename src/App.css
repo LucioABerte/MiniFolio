@@ -40,7 +40,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #0a0913f5;
+  background-color: #0d2017;
   --title-color: hsl(var(--hue), 12%, 95%);
   --text-color: hsl(var(--hue), 12%, 75%);
   --text-color-light: hsl(var(--hue), 8%, 75%);

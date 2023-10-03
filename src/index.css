@@ -6,15 +6,15 @@
   /* -- Colores --*/
   /*modo de Color HSL(hue, saturacion, brillo)*/
 
-  --hue: 207;
-  --sat: 90%;
-  --lig: 61%;
+  --hue: 160;
+  --sat: 60%;
+  --lig: 50%;
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--hue), var(--sat), 57%);
   --title-color: hsl(var(--hue), 12%, 15%);
   --text-color: hsl(var(--hue), 12%, 45%);
   --text-color-light: hsl(var(--hue), 8%, 75%);
-  --text-color-lighten: hsl(var(--hue), 10%, 85%);
+  --text-color-lighten: hsl(var(--hue), 60%, 70%);
   --background: #fff;
   --body-color: hsl(var(--hue), 100%, 99%);
   --container-color: #fff;
