@@ -6,7 +6,24 @@ const FirstTab = () => {
         <div className="projects__content grid filters__active">
 
                 <article className="projects__card animate__animated animate__fadeInLeft animate__delay-0.6s">
-                    <img src="CalendarApp.jpg" alt="img" className="projects__img" />
+                    <img src="Budget.png" alt="img" className="projects__img" />
+
+                    <div className="projects__modal">
+                        <div>
+                            <span className="projects__subtitle"> MERN App </span>
+                            <h3 className="projects__title">Budget App | Frontend Prototype </h3>
+                            <a href="https://press-lucioaberte.netlify.app/" target="_blank" className="projects__button button button__small">
+                                <i className="ri-link"></i>
+                            </a>
+                            <a href="https://github.com/LucioABerte/PressApp" target="_blank" className="projects__button button button__small two">
+                                <i className="ri-code-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article className="projects__card animate__animated animate__fadeInLeft animate__delay-0.6s">
+                    <img src="Calendar.png" alt="img" className="projects__img" />
 
                     <div className="projects__modal">
                         <div>
@@ -23,7 +40,7 @@ const FirstTab = () => {
                 </article>
 
                 <article className="projects__card animate__animated animate__fadeInLeft animate__delay-0.8s">
-                    <img src="JournalApp.jpg" alt="img" className="projects__img"/>
+                    <img src="Journal.png" alt="img" className="projects__img"/>
 
                     <div className="projects__modal">
                         <div>
@@ -39,17 +56,18 @@ const FirstTab = () => {
                     </div>
                 </article>
 
-                <article className="projects__card animate__animated animate__fadeInRight animate__delay-0.7s">
-                    <img src="notes.png" alt="img" className="projects__img" />
+
+                <article className="projects__card animate__animated animate__fadeInLeft animate__delay-1s">
+                    <img src="tesla.png" alt="img" className="projects__img"/>
 
                     <div className="projects__modal">
                         <div>
-                            <span className="projects__subtitle">React App</span>
-                            <h3 className="projects__title">Create Notes</h3>
-                            <a href="https://notes-app-lucioaberte.vercel.app/" target="_blank" className="projects__button button button__small">
+                            <span className="projects__subtitle">React Web App</span>
+                            <h3 className="projects__title">Tesla Clone Website</h3>
+                            <a href="https://tesla-clone-lucioaberte.vercel.app/#" target="_blank" className="projects__button button button__small">
                                 <i className="ri-link"></i>
                             </a>
-                            <a href="https://github.com/LucioABerte/NotesApp" target="_blank" className="projects__button button button__small two">
+                            <a href="https://github.com/LucioABerte/TravelApp" target="_blank" className="projects__button button button__small two">
                                 <i className="ri-code-line"></i>
                             </a>
                         </div>
@@ -73,24 +91,24 @@ const FirstTab = () => {
                     </div>
                 </article>
 
-                <article className="projects__card animate__animated animate__fadeInLeft animate__delay-1s">
-                    <img src="tesla.png" alt="img" className="projects__img"/>
+                <article className="projects__card animate__animated animate__fadeInRight animate__delay-0.7s">
+                    <img src="notes.png" alt="img" className="projects__img" />
 
                     <div className="projects__modal">
                         <div>
-                            <span className="projects__subtitle">React Web App</span>
-                            <h3 className="projects__title">Tesla Clone Website</h3>
-                            <a href="https://tesla-clone-lucioaberte.vercel.app/#" target="_blank" className="projects__button button button__small">
+                            <span className="projects__subtitle">React App</span>
+                            <h3 className="projects__title">Create Notes</h3>
+                            <a href="https://notes-app-lucioaberte.vercel.app/" target="_blank" className="projects__button button button__small">
                                 <i className="ri-link"></i>
                             </a>
-                            <a href="https://github.com/LucioABerte/TravelApp" target="_blank" className="projects__button button button__small two">
+                            <a href="https://github.com/LucioABerte/NotesApp" target="_blank" className="projects__button button button__small two">
                                 <i className="ri-code-line"></i>
                             </a>
                         </div>
                     </div>
                 </article>
 
-                <article className="projects__card animate__animated animate__fadeInRight animate__delay-1s">
+                {/*<article className="projects__card animate__animated animate__fadeInRight animate__delay-1s">
                     <img src="tenzies.png" alt="img" className="projects__img"/>
 
                     <div className="projects__modal">
@@ -105,7 +123,7 @@ const FirstTab = () => {
                             </a>
                         </div>
                     </div>
-                </article>
+                </article>*/}
 
         </div>
   );
