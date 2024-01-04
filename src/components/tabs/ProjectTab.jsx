@@ -5,6 +5,23 @@ const FirstTab = () => {
   return (
         <div className="projects__content grid filters__active">
 
+                <article className="projects__card animate__animated animate__fadeInRight animate__delay-0.7s">
+                    <img src="fengshui.png" alt="img" className="projects__img" />
+
+                    <div className="projects__modal">
+                        <div>
+                            <span className="projects__subtitle">React WebApp</span>
+                            <h3 className="projects__title">Feng Shui</h3>
+                            <a href="https://norafengshui.netlify.app/" target="_blank" className="projects__button button button__small">
+                                <i className="ri-link"></i>
+                            </a>
+                            <a href="https://norafengshui.netlify.app/" target="_blank" className="projects__button button button__small two">
+                                <i className="ri-code-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
                 <article className="projects__card animate__animated animate__fadeInLeft animate__delay-0.6s">
                     <img src="Budget.png" alt="img" className="projects__img" />
 
