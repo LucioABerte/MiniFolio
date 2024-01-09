@@ -60,7 +60,7 @@ const Header = () => {
                          
                     <div className="profile__buttons">
 
-                            <a download="" href="LucioBertéCV(English).pdf" target="_blank" className="button animate__animated animate__fadeInLeft animate__delay-09s">
+                            <a download="" href="LucioBertéCV(Eng).pdf" target="_blank" className="button animate__animated animate__fadeInLeft animate__delay-09s">
                                 Download CV <i className="ri-download-2-line"></i>
                             </a>
 
