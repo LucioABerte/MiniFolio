@@ -324,3 +324,11 @@ span{
   color: rgb(161, 21, 161);
 }
 
+.next {
+  color: rgb(0, 0, 0);
+}
+
+.type {
+  color: blue;
+  opacity: 0.7;
+}

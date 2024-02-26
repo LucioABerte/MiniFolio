@@ -53,7 +53,7 @@ const Header = () => {
                         <div className="profile__info-group">
                             <h3 className="profile__info-number">+2</h3>
                             <p className="profile__info-description">
-                                Specializing in <br/> ReactJS
+                                Specializing in <br/> Next.Js
                             </p>
                         </div>
                     </div>

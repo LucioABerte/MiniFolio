@@ -3,9 +3,9 @@ import "./tabs.css";
 
 import { AiOutlineHtml5, AiOutlineGithub } from "react-icons/ai";
 import { FaCss3Alt , FaNodeJs, FaReact, FaBootstrap, FaSlack, FaNpm, FaFigma, FaGitAlt, FaPython, FaDatabase } from "react-icons/fa";
-import { SiTailwindcss, SiVite, SiMaterialui, SiStrapi, SiVercel, SiNetlify, SiRedux, SiReacttable, SiFramer, SiFirebase, SiJest, SiMongodb, SiExpress } from "react-icons/si"; 
+import { SiTailwindcss, SiVite, SiMaterialui, SiTypescript,SiNextdotjs, SiStrapi, SiVercel, SiNetlify, SiRedux, SiReacttable, SiFramer, SiFirebase, SiJest, SiMongodb, SiExpress } from "react-icons/si"; 
 import { IoLogoJavascript } from "react-icons/io5";
-import { DiRuby } from "react-icons/di";
+
 
 const SecondTab = () => {
   return (
@@ -18,11 +18,11 @@ const SecondTab = () => {
                     <div className="skills__box">
                         <div className="skills__group">
                             <div className="skills__data">
-                                <AiOutlineHtml5 className="i html"/>
+                                <SiNextdotjs className="i next"/>
 
                                 <div>
-                                    <h3 className="skills__name">HTML5</h3>
-                                    <span className="skills_level">Advanced</span>
+                                    <h3 className="skills__name">Next.Js</h3>
+                    
                                 </div>
                             </div>
                             
@@ -32,7 +32,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">CSS3</h3>
-                                    <span className="skills_level">Advanced</span>
+                    
                                 </div>
                             </div>
 
@@ -41,7 +41,7 @@ const SecondTab = () => {
     
                                 <div>
                                     <h3 className="skills__name">Redux Toolkit</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
 
@@ -50,7 +50,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">Framer Motion</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
 
@@ -59,7 +59,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">Tailwind</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ const SecondTab = () => {
     
                                 <div>
                                     <h3 className="skills__name">React</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
 
@@ -78,7 +78,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">JavaScript</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
     
@@ -87,7 +87,7 @@ const SecondTab = () => {
     
                                 <div>
                                     <h3 className="skills__name">React Query</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
 
@@ -96,16 +96,16 @@ const SecondTab = () => {
     
                                 <div>
                                     <h3 className="skills__name">Material UI</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
 
                             <div className="skills__data">
-                                <FaFigma className="i figma" />
+                                <SiTypescript className="i type" />
     
                                 <div>
-                                    <h3 className="skills__name">Figma</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    <h3 className="skills__name">Typescript</h3>
+                                    
                                 </div>
                             </div>
 
@@ -125,7 +125,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">Node Js</h3>
-                                    <span className="skills_level">Beginner</span>
+                    
                                 </div>
                             </div>
 
@@ -134,7 +134,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">Express.js</h3>
-                                    <span className="skills_level">Beginner</span>
+                    
                                 </div>
                             </div>
 
@@ -143,7 +143,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">SQL</h3>
-                                    <span className="skills_level">Beginner</span>
+                    
                                 </div>
                             </div>
 
@@ -152,7 +152,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">Firebase</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
 
@@ -161,7 +161,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">JWT</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -171,7 +171,7 @@ const SecondTab = () => {
     
                                 <div>
                                     <h3 className="skills__name">Python</h3>
-                                    <span className="skills_level">Beginner</span>
+                    
                                 </div>
                             </div>
     
@@ -180,7 +180,7 @@ const SecondTab = () => {
     
                                 <div>
                                     <h3 className="skills__name">Slack</h3>
-                                    <span className="skills_level">Beginner</span>
+                    
                                 </div>
                             </div>
     
@@ -189,7 +189,7 @@ const SecondTab = () => {
     
                                 <div>
                                     <h3 className="skills__name">Jest</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
 
@@ -198,7 +198,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">MongoDB</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
 
@@ -207,7 +207,7 @@ const SecondTab = () => {
 
                                 <div>
                                     <h3 className="skills__name">GitHub</h3>
-                                    <span className="skills_level">Intermediate</span>
+                                    
                                 </div>
                             </div>
                         </div>
